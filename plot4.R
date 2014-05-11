@@ -10,7 +10,7 @@ par(cex.axis=0.6)
 
 #First graph
 plot(as.numeric(ReducedData$Global_active_power),type="l",
-     ylab="Global Active Power (kilowatts)",
+     ylab="Global Active Power",
      xaxt = "n",xlab= "")# creates the graph
 
 z<-as.Date(ReducedData$Date  ,format="%d/%m/%Y")#creates vector with dates for x axis
